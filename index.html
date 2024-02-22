@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <script>
-        var length = parseInt(prompt("Введіть довжину масиву:"));
-        var array = [];
-        for (var i = 0; i < length; i++) {
+        let length = parseInt(prompt("Введіть довжину масиву:"));
+        let array = [];
+        for (let i = 0; i < length; i++) {
             array.push(parseInt(prompt("Введіть елемент масиву " + (i + 1) + ":")));
         }
         document.write("Початковий масив: " + array.join(", ") + "<br>");
